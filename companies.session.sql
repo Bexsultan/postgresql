@@ -1,0 +1,17 @@
+-- CREATE TABLE phons(id serial PRIMARY KEY,names varchar(20),price int);
+-- INSERT INTO phons(names,price)VALUES('Iphone',1000);
+-- ALTER TABLE phons 
+-- ADD country VARCHAR(20);
+-- INSERT INTO phons(names,price,country)VALUES('Samsung', 800,'korea'),
+-- ('Nokia',200,'kyrgyzstan'),('MI',1,'Uzbekistan'),('Google',0,'USA');
+-- SELECT * FROM phons;
+
+-- CREATE TABLE car(id serial PRIMARY KEY, names VARCHAR(20), price INT DEFAULT 300);
+-- INSERT INTO car(names,price)VALUES('MB',1000);
+-- ALTER TABLE car
+-- ADD country VARCHAR(20);
+-- INSERT INTO car(names,price,country)VALUES('Audi',300,'Germany'),
+-- ('BMW',11800,'Germany'),('Tulpar', 1111800, 'Kyrgyzstan');
+-- UPDATE car SET country = 'Germany' where names = 'MB';
+-- DELETE FROM car where price > 1000;
+-- select * from car

@@ -1,0 +1,9 @@
+-- CREATE TABLE developers(id serial PRIMARY KEY, names VARCHAR(20), population INT);
+-- INSERT INTO developers(names, population)VALUES
+-- ('Chui', 100000),('Osh',200000),('Naryn',300000);	
+-- ALTER TABLE developers
+--   ADD team VARCHAR(50);
+-- ALTER TABLE developers RENAME COLUMN population to participants;
+-- DELETE FROM developers where participants=300000;
+-- UPDATE developers SET participants = 7000 where participants > 8000;
+-- SELECT * FROM developers
